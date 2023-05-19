@@ -11,7 +11,9 @@
 
 爬虫不会，代码搬运github的一个爬取赛氪网的一个项目。
 
-运行 `_02main.py`，使用scrapy爬取后把数据写入mysql中。
+连接上mysql数据库后运行 `_02make.sql`，创建所需要的数据库和数据表。
+
+运行 `_03main.py`，使用scrapy爬取后把数据写入mysql中。
 
 ## 大数据运维（配置安装hadoop及其组件）
 
